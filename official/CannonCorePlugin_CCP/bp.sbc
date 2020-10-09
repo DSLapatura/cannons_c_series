@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ShipBlueprints>
     <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
-      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="CannonCorePlugin" />
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="CannonCorePlugin_CCP" />
       <DisplayName>Sirius_Z</DisplayName>
       <CubeGrids>
         <CubeGrid>
@@ -33,7 +33,7 @@
               <Owner>144115188075855895</Owner>
               <BuiltBy>144115188075855895</BuiltBy>
               <ShareMode>Faction</ShareMode>
-              <CustomName>转子-zz-炮弹</CustomName>
+              <CustomName>Rotor_OS</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -73,7 +73,7 @@
               <Owner>144115188075855895</Owner>
               <BuiltBy>144115188075855895</BuiltBy>
               <ShareMode>Faction</ShareMode>
-              <CustomName>转子-zz-炮弹</CustomName>
+              <CustomName>Rotor_OS</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -95,7 +95,7 @@
               <BrakingTorque>0</BrakingTorque>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <DisplayName>CannonCorePlugin</DisplayName>
+          <DisplayName>CannonCorePlugin_CCP</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
@@ -137,7 +137,7 @@
               <BoneOffset x="134" y="126" z="126" />
             </BoneInfo>
           </Skeleton>
-          <DisplayName>小型网格 5551</DisplayName>
+          <DisplayName>RotorHead</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>

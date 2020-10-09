@@ -2,22 +2,22 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ShipBlueprints>
     <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
-      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="CannonControl_CC00" />
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="CannonControl_CC-C00" />
       <DisplayName>Sirius_Z</DisplayName>
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>88482629458829990</EntityId>
+          <EntityId>72237113185997179</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="314.83630606341831" y="2574.3930065943564" z="307.28702524106666" />
-            <Forward x="0.005397366" y="0.999970555" z="0.00545400428" />
-            <Up x="-0.0143572185" y="0.00553101255" z="-0.9998816" />
+            <Position x="771.185071206118" y="2540.8984178549208" z="327.73433293891662" />
+            <Forward x="-9.058123E-07" y="1" z="3.89826027E-07" />
+            <Up x="5.93892828E-08" y="3.89826084E-07" z="-1" />
             <Orientation>
-              <X>-0.00318704988</X>
-              <Y>0.709025264</Y>
-              <Z>-0.705141366</Z>
-              <W>-0.006975779</W>
+              <X>-2.99255646E-07</X>
+              <Y>0.707106948</Y>
+              <Z>-0.7071066</Z>
+              <W>3.41250342E-07</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -25,7 +25,7 @@
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TerminalBlock">
               <SubtypeName>SmallControlPanel</SubtypeName>
-              <EntityId>76020307739416082</EntityId>
+              <EntityId>125476519025339836</EntityId>
               <Min x="8" y="2" z="-1" />
               <BlockOrientation Forward="Right" Up="Up" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
@@ -41,7 +41,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>72115988305919497</EntityId>
+              <EntityId>137523920605530960</EntityId>
               <Min x="7" y="2" z="-1" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -67,7 +67,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>95678616281819058</EntityId>
+              <EntityId>114949673715597869</EntityId>
               <Min x="7" y="2" z="0" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -89,7 +89,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff_On</Action>
-                      <BlockEntityId>135766191440459732</BlockEntityId>
+                      <BlockEntityId>136036405668441829</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -98,7 +98,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff_On</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>95678616281819058</BlockEntityId>
+                      <BlockEntityId>114949673715597869</BlockEntityId>
                       <GroupName>Decorations_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -108,7 +108,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff_Off</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>95678616281819058</BlockEntityId>
+                      <BlockEntityId>114949673715597869</BlockEntityId>
                       <GroupName>Welders_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -122,7 +122,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>85173050905933314</EntityId>
+              <EntityId>121116731505786452</EntityId>
               <Min x="7" y="2" z="-2" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -148,7 +148,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>130993776762840804</EntityId>
+              <EntityId>101207726641528313</EntityId>
               <Min x="7" y="2" z="1" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -171,7 +171,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Attach</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>130993776762840804</BlockEntityId>
+                      <BlockEntityId>101207726641528313</BlockEntityId>
                       <GroupName>Detachers_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -181,7 +181,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Retract</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>130993776762840804</BlockEntityId>
+                      <BlockEntityId>101207726641528313</BlockEntityId>
                       <GroupName>Pistons_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -195,7 +195,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>136207559577578214</EntityId>
+              <EntityId>143970901910725416</EntityId>
               <Min x="7" y="2" z="2" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -217,7 +217,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
-                      <BlockEntityId>95678616281819058</BlockEntityId>
+                      <BlockEntityId>114949673715597869</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -226,7 +226,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff_On</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>136207559577578214</BlockEntityId>
+                      <BlockEntityId>143970901910725416</BlockEntityId>
                       <GroupName>Welders_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -235,7 +235,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
-                      <BlockEntityId>130993776762840804</BlockEntityId>
+                      <BlockEntityId>101207726641528313</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -244,7 +244,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Extend</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>136207559577578214</BlockEntityId>
+                      <BlockEntityId>143970901910725416</BlockEntityId>
                       <GroupName>Pistons_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -258,7 +258,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>81572838617884035</EntityId>
+              <EntityId>80176825108192468</EntityId>
               <Min x="7" y="2" z="3" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -280,7 +280,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>TriggerNow</Action>
-                      <BlockEntityId>136207559577578214</BlockEntityId>
+                      <BlockEntityId>143970901910725416</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -289,7 +289,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff_Off</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>81572838617884035</BlockEntityId>
+                      <BlockEntityId>80176825108192468</BlockEntityId>
                       <GroupName>Decorations_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -299,7 +299,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff_Off</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>81572838617884035</BlockEntityId>
+                      <BlockEntityId>80176825108192468</BlockEntityId>
                       <GroupName>Guns_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -313,7 +313,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>135766191440459732</EntityId>
+              <EntityId>136036405668441829</EntityId>
               <Min x="7" y="2" z="4" />
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>SciFi_Armor</SkinSubtypeId>
@@ -336,7 +336,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff_On</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>135766191440459732</BlockEntityId>
+                      <BlockEntityId>136036405668441829</BlockEntityId>
                       <GroupName>Guns_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -346,7 +346,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Safety</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>135766191440459732</BlockEntityId>
+                      <BlockEntityId>136036405668441829</BlockEntityId>
                       <GroupName>Warheads_cannon_shell</GroupName>
                     </Data>
                   </Slot>
@@ -356,7 +356,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>ShootOnce</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>135766191440459732</BlockEntityId>
+                      <BlockEntityId>136036405668441829</BlockEntityId>
                       <GroupName>Guns_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -366,7 +366,7 @@
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>Detach</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>135766191440459732</BlockEntityId>
+                      <BlockEntityId>136036405668441829</BlockEntityId>
                       <GroupName>Detachers_cannon</GroupName>
                     </Data>
                   </Slot>
@@ -375,7 +375,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>TriggerNow</Action>
-                      <BlockEntityId>81572838617884035</BlockEntityId>
+                      <BlockEntityId>80176825108192468</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -383,7 +383,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff_Off</Action>
-                      <BlockEntityId>135766191440459732</BlockEntityId>
+                      <BlockEntityId>136036405668441829</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -391,7 +391,7 @@
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
-                      <BlockEntityId>72115988305919497</BlockEntityId>
+                      <BlockEntityId>137523920605530960</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
@@ -415,7 +415,7 @@
               </Blocks>
             </MyObjectBuilder_BlockGroup>
           </BlockGroups>
-          <DisplayName>CannonControl_CC00</DisplayName>
+          <DisplayName>CannonControl_CC-C00</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>

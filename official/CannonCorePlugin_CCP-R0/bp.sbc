@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ShipBlueprints>
     <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
-      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="CannonCorePlugin_R0" />
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="CannonCorePlugin_CCP-R0" />
       <DisplayName>Sirius_Z</DisplayName>
       <CubeGrids>
         <CubeGrid>
@@ -88,7 +88,7 @@
           </CubeBlocks>
           <LinearVelocity x="-0.00100316945" y="0.0110863093" z="0.00148612028" />
           <AngularVelocity x="-0.0179443751" y="0.00301717315" z="0.00149583165" />
-          <DisplayName>CannonCorePlugin_R0</DisplayName>
+          <DisplayName>CannonCorePlugin_CCP-R0</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
@@ -126,7 +126,7 @@
           </CubeBlocks>
           <LinearVelocity x="-0.0005019526" y="0.009013092" z="-0.00224280637" />
           <AngularVelocity x="-0.00374625949" y="0.00177989411" z="-0.00282030134" />
-          <DisplayName>小型网格 2667</DisplayName>
+          <DisplayName>RotorHead</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
