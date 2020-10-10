@@ -7,17 +7,17 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>110326062585027459</EntityId>
+          <EntityId>107424598559103379</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="749.68499991107456" y="2477.8983815028037" z="288.734554080178" />
-            <Forward x="-0.0005383017" y="-5.21654038E-05" z="-0.9999999" />
-            <Up x="3.655507E-05" y="-0.9999999" z="5.21457368E-05" />
+            <Position x="814.18520302176785" y="2183.8984081989938" z="301.2344428796913" />
+            <Forward x="3.735214E-07" y="-2.38516378E-07" z="-1" />
+            <Up x="1" y="4.1723024E-07" z="3.735213E-07" />
             <Orientation>
-              <X>0.000269151351</X>
-              <Y>2.6077787E-05</Y>
-              <Z>0.99999994</Z>
-              <W>-1.827052E-05</W>
+              <X>4.77314366E-08</X>
+              <Y>-2.16388031E-07</Y>
+              <Z>-0.7071066</Z>
+              <W>0.707106948</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -27,17 +27,17 @@
               <SubtypeName>HalfArmorBlock</SubtypeName>
               <Min x="0" y="-1" z="0" />
               <BlockOrientation Forward="Up" Up="Backward" />
-              <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0.6666667" y="-0.65" z="0.05" />
+              <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>90234150400045839</EntityId>
+              <EntityId>109088537061821734</EntityId>
               <Min x="0" y="1" z="1" />
               <BlockOrientation Forward="Up" Up="Forward" />
-              <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
+              <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
               <CustomName>室内灯-snd- 2</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
@@ -56,30 +56,30 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>101748936827394695</EntityId>
+              <EntityId>88819512708272809</EntityId>
               <Min x="0" y="0" z="1" />
               <BlockOrientation Forward="Right" Up="Forward" />
-              <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
+              <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorRotor">
               <SubtypeName>SmallRotor</SubtypeName>
-              <EntityId>138004707895798814</EntityId>
+              <EntityId>136328295042182706</EntityId>
               <Min x="0" y="-2" z="1" />
-              <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
+              <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
               <ParentEntityId>0</ParentEntityId>
               <YieldLastComponent>true</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallArmorCenter</SubtypeName>
-              <EntityId>127475182139156854</EntityId>
+              <EntityId>134698983685519841</EntityId>
               <Min x="0" y="-1" z="1" />
               <BlockOrientation Forward="Right" Up="Forward" />
-              <ColorMaskHSV x="0" y="-0.8" z="0.55" />
-              <SkinSubtypeId>DigitalCamouflage_Armor</SkinSubtypeId>
+              <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
+              <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
