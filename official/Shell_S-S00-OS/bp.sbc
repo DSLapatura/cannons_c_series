@@ -7,10 +7,10 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>122128224589673905</EntityId>
+          <EntityId>143032592133125788</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="286.13615803863468" y="2588.3452142919118" z="303.35648341558135" />
+            <Position x="-203.89872278567782" y="3273.6425618082176" z="205.82589392478076" />
             <Forward x="-0.0143573135" y="0.005550327" z="-0.9998815" />
             <Up x="-0.006706588" y="-0.999962449" z="-0.005454477" />
             <Orientation>
@@ -33,7 +33,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>97190757598639993</EntityId>
+              <EntityId>136132676655322871</EntityId>
               <Min x="0" y="-1" z="1" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
@@ -52,7 +52,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>111243461740293485</EntityId>
+              <EntityId>125821539695883764</EntityId>
               <Min x="0" y="-2" z="1" />
               <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
               <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
@@ -70,7 +70,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
               <SubtypeName>SmallWarhead</SubtypeName>
-              <EntityId>139862196758611144</EntityId>
+              <EntityId>84248242569942978</EntityId>
               <Min x="0" y="0" z="1" />
               <BlockOrientation Forward="Forward" Up="Down" />
               <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
@@ -89,13 +89,13 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockSmallLight</SubtypeName>
-              <EntityId>112142609011798803</EntityId>
+              <EntityId>110402790835931163</EntityId>
               <Min x="0" y="1" z="1" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.2777778" y="-0.9558823" z="0.06666672" />
               <SkinSubtypeId>Silver_Armor</SkinSubtypeId>
               <BuiltBy>144115188075855895</BuiltBy>
-              <CustomName>室内灯-snd- 5</CustomName>
+              <CustomName>Light_shell</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
